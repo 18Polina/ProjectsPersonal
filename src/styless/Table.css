@@ -1,0 +1,125 @@
+.wrappers{
+    background-color: arg;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    top: 70%;
+    left: 30%;
+    min-height: 60%;
+    min-width: 40%;
+    border-radius: 10%;
+}
+.labe{
+    position: absolute;
+    display: flex;
+    min-width: 60%;
+    align-content: center;
+    left: 33%;
+    top: 5%;
+    font-size: 150%;
+    color: black;
+}
+.inputFIO{
+    position: absolute;
+    display: flex;
+    min-width: 35%;
+    min-height: 10%;
+    align-content: center;
+    left: 5%;
+    top: 22%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(114,131,123) ;
+    border-radius: 3%;
+    text-align: center;
+}
+input::placeholder{
+    color: black;
+    font-size: 100%;
+}
+.inputTel{
+    position: absolute;
+    display: flex;
+    min-width: 35%;
+    min-height: 10%;
+    align-content: center;
+    left: 5%;
+    top: 42%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(114,131,123) ;
+    border-radius: 3%;
+    text-align: center;
+}
+.inputDate{
+    position: absolute;
+    display: flex;
+    min-width: 35%;
+    min-height: 10%;
+    align-content: center;
+    right: 5%;
+    top: 22%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(114,131,123) ;
+    border-radius: 3%;
+    text-align: center;
+}
+.inputSelect{
+    position: absolute;
+    display: flex;
+    min-width: 35%;
+    min-height: 10%;
+    align-content: center;
+    right: 5%;
+    top: 42%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(114,131,123) ;
+    border-radius: 3%;
+    text-align: center;
+    appearance: none;
+}
+.textArea{
+    position: absolute;
+    display: flex;
+    min-width: 90%;
+    min-height: 25%;
+    align-content: center;
+    right: 5%;
+    top: 62%;
+    left: 5%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(114,131,123) ;
+    border-radius: 3%;
+    text-align: left;
+    color: black;
+
+}
+.option{
+    color: black;
+    border-radius: 40%;
+}
+textarea::placeholder{
+    color: black;
+}
+.booking{
+    position: absolute;
+    align-content: center;
+    top: 135%;
+    left: 44%;
+    min-height: 10%;
+    min-width: 10%;
+    border-radius: 10%;
+}
+.btn{
+    color: rgb(91,128,45);
+    position: absolute;
+    top: 6%;
+    min-width: 100%;
+    min-height: 40%;
+    left: 2%;
+    font-size: 160%;
+    border-color: rgb(91,128,45);
+}

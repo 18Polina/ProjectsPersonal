@@ -1,0 +1,166 @@
+.Header{
+   background: rgb(235,235,235);
+    display: flex;
+    height: 80em;
+    max-width: 100%;
+    justify-content: center;
+}
+.information{
+    position: absolute;
+    top: 3%;
+    min-height: 15%;
+    min-width: 15%;
+    right: 2%;
+}
+.registration{
+    position: absolute;
+    color: rgb(91,107,114);
+    top: 3%;
+    min-height: 40%;
+    min-width: 18%;
+    left: 2%;
+    border-bottom: 3px black;
+}
+.avtorization{
+    position: absolute;
+    color: rgb(91,107,114);
+    top: 3%;
+    min-height: 40%;
+    min-width: 18%;
+    right: 1%;
+    border-bottom: 3px black;
+}
+.address{
+    position: absolute;
+    color: rgb(91,107,114);
+    bottom: 36%;
+    min-height: 40%;
+    min-width: 18%;
+    right: 1%;
+    border-bottom: 3px black;
+}
+.imgWindow{
+    background-image: url("../images/Italia.jpg");
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    min-height: 55%;
+    top: 13%;
+
+}
+.wrap{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 40%;
+}
+.block{
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    width: 25%;
+    height: 110%;
+    background: rgb(129,136,116);
+    border-radius: 10%;
+}
+.blockCenter{
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    left: 38%;
+    width: 25%;
+    height: 110%;
+    background: rgb(129,136,116);
+    border-radius: 10%;
+}
+.blockRight{
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    right: 9%;
+    width: 25%;
+    height: 110%;
+    background: rgb(129,136,116);
+    border-radius: 10%;
+}
+.wrapper{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background: rgb(222,216,198);
+    height: 13%;
+    align-content: center;
+}
+.labels{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    align-content: center;
+    left: 1%;
+    bottom: 55%;
+    font-size: 140%;
+    color: rgb(56,70,77);
+}
+.labelContact{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    align-content: center;
+    left: 1%;
+    bottom: 36%;
+    font-size: 110%;
+    color: rgb(56,70,77);
+}
+.labelMail{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    align-content: center;
+    left: 1%;
+    bottom: 18%;
+    font-size: 110%;
+    color: rgb(56,70,77);
+}
+.labelHref{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    align-content: center;
+    left: 1%;
+    bottom: 2%;
+    font-size: 110%;
+    color: rgb(56,70,77);
+}
+
+.label{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    min-width: 80%;
+    height: 30%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 105%;
+}
+.p{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    min-height: 40%;
+    color:white;
+    text-transform: inherit;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+

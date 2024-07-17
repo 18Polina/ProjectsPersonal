@@ -1,0 +1,189 @@
+ .wrapp{
+    display: inline-block;
+    position: absolute;
+    top: 69%;
+    min-width: 45%;
+    min-height: 94%;
+    left: 1%;
+     overflow-y: scroll;
+     overflow-x: scroll;
+     grid-template-rows: 1fr min-content;
+     scrollbar-width: none;
+ }
+ .divImage{
+     position: absolute;
+     top: 3%;
+     left: 6%;
+     min-width: 85%;
+     min-height: 70%;
+ }
+ #divMenus{
+     position: absolute;
+     top: 70%;
+     height: 100%;
+     right: 2%;
+     left: 2%;
+     z-index: 1
+ }
+ .divMenu{
+     position: relative;
+     left: 25%;
+     width: 50%;
+     min-height: 50px;
+     object-fit: contain;
+     ;
+ }
+ #divImage{
+     position: absolute;
+     left: 5%;
+     top: 100px;
+     width: 1300px;
+     padding-right: 15px;
+     height: 70%;
+     box-sizing: border-box;
+ }
+ #divColumn{
+     position: absolute;
+     left: 1%;
+     right: 75%;
+     height: 100%;
+ }
+ .divColumnTwo{
+     position: absolute;
+     left: 37%;
+     right: 39%;
+     height: 100%;
+ }
+ .divColumns{
+     position: absolute;
+     left: 75%;
+     right: 1%;
+     height: 100%;
+ }
+ .labelMenu{
+     position: absolute;
+     left: 40%;
+     top: 1%;
+     width: 60%;
+     color: rgba(211,174,162);
+     font-size: 190%;
+     font-weight: bold;
+ }
+ .imageSalads{
+     position: absolute;
+     min-width: 100%;
+     min-height: 100%;
+     right: 3%;
+     transition: 1s; /* Время эффекта */
+     display: block;
+     background-image: url("../images/salads.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ #imagePasta{
+     width: 100%;
+     height: 400px;
+     transition: 1s; /* Время эффекта */
+     display: block;
+     background-image: url("../images/pasta.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ #imageBeard{
+     width: 100%;
+     height: 400px;
+     transition: 1s; /* Время эффекта */
+     display: block;
+     background-image: url("../images/zakuski.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ #imageDrink{
+     position: absolute;
+     min-width: 100%;
+     min-height: 120%;
+     right: 3%;
+     transition: 1s; /* Время эффекта */
+     display: block;
+     background-image: url("../images/limonad.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ #imageDrinkAlk{
+     position: absolute;
+     min-width: 100%;
+     min-height: 100%;
+     right: 3%;
+     transition: 1s; /* Время эффекта */
+     display: block;
+     background-image: url("../images/aperol.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ #imagePizzas{
+     width: 100%;
+     height: 400px;
+     transition: 1s; /* Время эффекта */
+     display: block;
+     background-image: url("../images/pizzas.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ #imagePizzas:hover  {
+     transform: scale(1.1,1.1);
+    /* background-color: black;*/
+ }
+ #imageBeard:hover  {
+     transform: scale(1.1,1.1);
+     /* background-color: black;*/
+ }
+ #imageDrink:hover  {
+     transform: scale(1.1,1.1);
+     /* background-color: black;*/
+ }
+ #imageDrinkAlk:hover  {
+     transform: scale(1.1,1.1);
+     /* background-color: black;*/
+ }
+ #imagePasta:hover  {
+     transform: scale(1.1,1.1);
+     /* background-color: black;*/
+ }
+ .imageSalads:hover{
+     transform: scale(1.1,1.1);
+ }
+ .divImagesHover{
+     display: inline-block;
+     overflow: hidden;
+     position: absolute;
+     min-width: 280px;
+     min-height: 40%;
+     left: 2%;
+     right: 4%;
+     bottom: 1%;
+ }
+ .divImagesHovers{
+     display: inline-block;
+     overflow: hidden;
+     position: relative;
+     min-width: 280px;
+     min-height: 40%;
+     top: 2%;
+     left: 2%;
+     right: 4%;
+ }
+ #buttonMenu{
+     position: absolute;
+     left: 35%;
+     top: 15%;
+     width: 30%;
+     height: 20%;
+     border-radius: 50%;
+     border: none;
+     background: rgba(211,201,198) ;
+ }
+
+
+
+
+
